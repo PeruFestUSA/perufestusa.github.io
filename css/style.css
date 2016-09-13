@@ -2034,7 +2034,23 @@ input[type="color"]:focus {
 
 }
 
-
+/* __________ Recent Posts Medium - AT 9/14/2016 __________ */
+.recent_posts_medium {margin-bottom:15px;}
+.post_item_img_medium {
+	overflow:hidden;
+	float:left;
+	width:110px;
+	height:90px;
+	margin:2px 15px 13px 0;
+}
+.post_item_img_medium img {
+	width:auto;
+	max-width:none;
+	height:100%;
+	transition: opacity 0.3s ease-in-out; 
+	-webkit-transition: opacity 0.3s ease-in-out;
+}
+.recent_posts_medium:hover .post_item_img_medium img {opacity:0.5;}
 
 
 
